@@ -1,0 +1,230 @@
+    html {
+        font-size: 62.5%;
+    }
+    
+    .navbar,
+    .navbar.navbar-default {
+        background-color: #4e91fd;
+        opacity: 0.8;
+    }
+    
+    .logo {
+        width: 50px;
+        height: 33px;
+    }
+    
+    .main {
+        position: relative;
+        top: 30px;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    section {
+        margin-top: 10px;
+        /*border: solid red 1px;*/
+    }
+    
+    section .anchor {
+        position: relative;
+        top: -70px;
+    }
+    
+    section.header {
+        background-image: url("/images/header.png");
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+    
+    section.header h2 {
+        font-family: 'Catamaran', sans-serif;
+        font-size: 3em;
+        position: relative;
+        text-align: center;
+        text-transform: inherit;
+        font-weight: bold;
+    }
+    
+    section.header .services {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    section.header .logo {
+        width: 40%;
+        height: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    section h2 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 3em;
+        font-weight: 400;
+    }
+    
+    .whyus h2,
+    .manuscriptediting h2,
+    .bioinformatics h2,
+    .price h2,
+    .contactus h2 {
+        margin-top: 50px;
+    }
+    
+    .whyus ul {
+        list-style: none;
+        margin: 100px 0;
+    }
+    
+    .whyus li i {
+        font-size: 8em;
+        color: #009688;
+    }
+    
+    .whyus li .list-header {
+        font-size: 2em;
+        font-weight: 500;
+        text-transform: capitalize;
+        min-height: 3em;
+    }
+    
+    .whyus li .list-content {
+        font-size: 1.4em;
+    }
+    
+    .manuscriptediting,
+    .bioinformatics,
+    .price,
+    .contactus {
+        margin: 0 40px;
+    }
+    
+    .manuscriptediting ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .manuscriptediting .quotas q {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    
+    .manuscriptediting .well {
+        margin-bottom: 5px;
+    }
+    
+    .manuscriptediting .resolution-item {
+        margin-bottom: 20px;
+    }
+    
+    .manuscriptediting .resolution-item div {
+        padding: 5px;
+        border: solid 1px #009688;
+        min-height: 90px;
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    
+    .bioinformatics ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .bio-header {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 2em;
+        margin: 10px;
+    }
+    
+    ul.bio-content {
+        font-size: 1.2em;
+        margin: 10px;
+        border: solid 1px #009968;
+        padding: 25px;
+    }
+    
+    .bioinformatics li {
+        margin: 10px 0;
+    }
+    
+    .price .tier-container {
+        margin: 80px 0;
+    }
+    
+    .price .tier {
+        border: solid 1px #009688;
+        min-height: 400px;
+    }
+    
+    .price .tier-header {
+        font-size: 2em;
+        font-weight: 400;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .price .tier-features {
+        text-transform: lowercase;
+        min-height: 150px;
+    }
+    
+    .tier .tier-features ul {
+        width: 95%;
+    }
+    
+    .tier .tier-features li {
+        font-size: 1.3em;
+    }
+    
+    .price .tier-price {
+        font-size: 3em;
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    .price .note {
+        font-size: 1em;
+    }
+    
+    .contactus form {
+        margin: 10px 0;
+    }
+    
+    .btn.btn-lg {
+        font-size: 25px;
+    }
+    
+    .testimonials {
+        height: 100%;
+    }
+    
+    .slide {
+        height: 100%;
+    }
+    
+    .avatar-container {
+        text-align: center;
+    }
+    
+    blockquote.style1 {
+        font: 2em italic Times, serif;
+        padding: 8px;
+        margin: 5px;
+        background-image: url(/images/openquote1.gif);
+        background-position: top left;
+        background-repeat: no-repeat;
+        text-indent: 23px;
+    }
+    
+    blockquote.style1 span {
+        display: block;
+        background-image: url(/images/closequote1.gif);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
