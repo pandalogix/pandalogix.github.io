@@ -1,5 +1,6 @@
 $(function() {
 
+
     $(window).trigger('resize');
 
     $('#mc-embedded-subscribe').click(function() {
